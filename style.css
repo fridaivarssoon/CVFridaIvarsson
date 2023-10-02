@@ -53,6 +53,8 @@ nav{
     align-items: center;
 }
 
+
+
 nav img{
     width: 150px;
 }
@@ -71,3 +73,38 @@ nav img{
 h1 {
     text-align: center;
 }
+
+p {
+    text-align: left;
+}
+
+
+.box {
+    width: auto;
+    height: auto;
+    border: 1px solid black;
+    padding: 20px;
+    margin: 20px;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.100);
+  }
+
+div {
+text-align: center;
+}
+
+
+footer {
+    margin-top: auto;
+    background-color: black;
+    color: beige;
+}
+
+.footerWrapper {
+    max-width: 600px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
