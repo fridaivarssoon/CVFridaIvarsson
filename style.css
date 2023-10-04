@@ -1,5 +1,5 @@
 body {
-    background-color: rgba(226, 222, 193, 0.871);
+    background-color: #cec6bace;
     font-family: 'Times New Roman', Times, serif;
     padding: 0px;
     margin: 0px;
@@ -56,6 +56,7 @@ nav{
 
 nav img{
     width: 150px;
+
 }
 .nav-links{
     flex: 1;
@@ -106,6 +107,11 @@ div {
     text-align: left
 }
 
+.box2 {
+    color: white;
+    display: flex;
+    justify-content: space-evenly
+  }
 
 footer {
     margin-top: auto;
@@ -113,7 +119,10 @@ footer {
     color: beige;
     display: flex;
     justify-content: space-evenly;
+    
+    
 }
 
-
-
+img{
+    margin-inline-start: 100px;
+}
